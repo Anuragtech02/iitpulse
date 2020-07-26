@@ -196,7 +196,7 @@ body {
   }
   .contact {
     flex-direction: column;
-    padding: 0 20px;
+    padding: 0 20px !important;
   }
   .contact-image {
     width: 90%;
@@ -209,6 +209,16 @@ body {
   }
   .contact {
     padding: 0 !important;
+  }
+  .navbar {
+    width: 100%;
+    padding: 0 10px;
+  }
+  .nav-container {
+    width: 100% !important;
+  }
+  .form-inside {
+    padding: 0 15px;
   }
 }
 
@@ -227,5 +237,17 @@ body {
   }
   .hero-text h2 {
     font-size: 3rem;
+  }
+  .input-field {
+    min-width: 300px !important;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .feature-images {
+    padding: 0 15px !important;
+  }
+  .feature-images img {
+    max-width: 300px !important;
   }
 }
